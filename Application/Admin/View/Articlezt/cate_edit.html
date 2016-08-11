@@ -1,0 +1,159 @@
+<extend name="Public/base"/>
+<block name="sidebar">
+    <div id="subnav" class="subnav">
+
+        <volist name="cate_data" id="vo">
+            <if condition="$vo.pid eq 0">
+                <h3>
+                    <i class="icon" value="mydocument,draftbox,examine"> </i>
+                    {$vo.title}
+                </h3>
+            </if>
+        </volist>
+
+        <ul class="side-sub-menu">
+            <volist name="cate_data" id="vo">
+                <if condition="$vo.pid neq 0">
+                    <li><a class="item" href='{:U("Fit/fit",array(id=>$vo[id]))}'>{$vo.title}</a></li>
+                </if>
+            </volist>
+        </ul>
+
+    </div>
+
+    <script>
+        $(function () {
+            $(".side-sub-menu li").hover(function () {
+                $(this).addClass("hover");
+            }, function () {
+                $(this).removeClass("hover");
+            });
+        })
+    </script>
+</block>
+
+<block name="body">
+    <style>
+        img {
+            height: 150px;
+            width: 150px;
+        }
+
+        .good_img {
+            border: 1px solid #fff;
+            max-width: 180px;
+            max-height: 190px;
+            float: left;
+            margin: 5px;
+        }
+
+        .good_img span {
+            padding-left: 12px;
+        }
+    </style>
+    <!-- 子导航 -->
+    <div class="main-title">
+        <h2>
+            編輯分类
+        </h2>
+    </div>
+    <script type="text/javascript" src="__STATIC__/uploadify/jquery.uploadify.min.js"></script>
+
+    <!-- 标签页导航 -->
+    <div class="tab-wrap">
+        <div class="tab-content">
+            <!-- 表单 -->
+            <form id="form" action="{:U('cate_edit?id='.$data['id'])}" method="post" class="form-horizontal">
+                <!-- 基础文档模型 -->
+
+                <div class="form-item cf">
+                    <label class="item-label">标题<span class="check-tips">（2-60字之间）</span></label>
+
+                    <div class="controls">
+                        <input type="text" name="title" value="{$data['title']}" class="text input-mid"></div>
+                </div>
+
+
+
+
+
+                    <div class="form-item cf">
+                        <label class="item-label">图片<span class="check-tips">点击选择</span></label>
+
+                        <div class="controls">
+                            <input type="file" id="upload_picture_post">
+
+                            <input type="hidden" class="fit_img"/>
+
+                            <div class="upload-pre-item" style="padding-top: 5px">
+                            </div>
+                            <img src="http://120.25.226.231{$data['img']['path']}"/><br>
+                            <button type=button class='btn img_del' data-id="{$data['img']['path']}" onclick="label_click(this);">删除</button>
+                        </div>
+
+                    <script type="text/javascript">
+                        //上传图片
+                        /* 初始化上传插件 */
+                        $("#upload_picture_post").uploadify({
+                            "height": 30,
+                            "swf": "__STATIC__/uploadify/uploadify.swf",
+                            "fileObjName": "download",
+                            "buttonText": "上传图片",
+                            "uploader": "{:U('File/uploadPicture',array('session_id'=>session_id()))}",
+                            "width": 120,
+                            'removeTimeout': 1,
+                            'fileTypeExts': '*.jpg; *.png; *.gif;',
+                            "onUploadSuccess": uploadPicturegood,
+                            'onFallback': function () {
+                                alert('未检测到兼容版本的Flash.');
+                            }
+                        });
+                        function uploadPicturegood(file, data) {
+                            var data = $.parseJSON(data);
+                            var src = '';
+                            var img = '';
+                            if (data.status) {
+                                var img_html = '\<input type="hidden" name="pro_img" class="fit_img" value="' + data.id + '"/>';
+                                src = data.url || '__ROOT__' + data.path;
+                                img = '<div class="good_img"\>' + img_html + '<img src="' + src + '"/>\<br>' +
+                                        '<span><button type=button class=\'btn img_del\' onclick=del_img(' + data.id + ',this)>删除<\/button></span></div>';
+                                $(".fit_img").parent().find('.upload-pre-item').append(img).show();
+                            } else {
+                                layer.msg(data.info, {icon: 5})
+                            }
+                        }
+
+                    </script>
+                </div>
+
+                <div class="form-item cf">
+                    <button class="btn submit-btn ajax-post hidden" id="submit" type="submit"
+                            target-form="form-horizontal">确定
+                    </button>
+                    <a class="btn btn-return" href="javascript:history.back();">返 回</a> <b style="color: #f00; display: none"
+                                                                             class="tishi"> </b>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</block>
+<block name="script">
+    <script type="text/javascript">
+        $('#submit').click(function(){
+            console.log($(this));
+            $('#form').submit();
+        });
+
+        function del_img(id, index) {
+            $.get("{:U('Picture/del')}", {'id': id}, function (data) {
+                if (data.status) {
+                    layer.msg("删除成功", {icon: 6});
+                    $(index).parent().parent(".good_img").remove();
+                }
+            })
+        }
+
+    </script>
+</block>

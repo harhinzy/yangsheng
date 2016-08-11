@@ -1,0 +1,1288 @@
+[ 2016-08-10T09:50:28+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001444s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0452s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.2493s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0480s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.327405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.327691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001694s ]
+
+[ 2016-08-10T09:51:44+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0497s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0434s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0436s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.327258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.327472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2016-08-10T09:58:36+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001609s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0432s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0421s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0428s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.335341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.335564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001935s ]
+
+[ 2016-08-10T09:59:22+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001361s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0432s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0437s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0433s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0505s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.317922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.318146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001657s ]
+
+[ 2016-08-10T09:59:38+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0463s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0465s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.310906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.311087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001814s ]
+
+[ 2016-08-10T10:00:08+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001336s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0424s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0515s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0432s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.302113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.302252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2016-08-10T10:04:02+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0480s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0412s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0428s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.327747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.327909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2016-08-10T10:07:49+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001343s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0436s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0403s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0429s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0439s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.301511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.301596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-08-10T10:24:26+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001365s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0430s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0434s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0618s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.331347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.331491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-08-10T10:25:29+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001385s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0447s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0408s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0463s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.314094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.314221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2016-08-10T10:25:46+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004900s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0426s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0415s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0409s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.351998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.352291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002090s ]
+
+[ 2016-08-10T10:41:22+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001959s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0431s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0426s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0465s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0514s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.285745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.285850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-08-10T10:46:39+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0433s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0411s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0411s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.314035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.314203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2016-08-10T10:49:54+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004231s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0565s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0578s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0534s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.394867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.395091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002610s ]
+
+[ 2016-08-10T10:51:07+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002853s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0460s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0428s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0441s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.308617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.308701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-08-10T11:08:02+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002512s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0409s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0395s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0398s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.340359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.340471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-10T11:13:46+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002670s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0483s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0408s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0434s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.317832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.317951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-08-10T11:14:37+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002304s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0416s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.1067s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0471s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.380556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.380991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002647s ]
+
+[ 2016-08-10T11:23:21+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0484s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0534s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0555s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.300569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.300710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2016-08-10T11:24:42+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002271s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0445s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0416s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0416s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0426s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.327324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.327423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2016-08-10T11:25:14+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002420s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0430s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0413s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0413s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.307579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.307655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-08-10T11:27:45+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0444s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0416s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0483s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.299444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.299657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002906s ]
+
+[ 2016-08-10T11:28:54+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002220s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0463s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0438s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0408s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.336562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.336678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2016-08-10T11:29:47+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0446s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0445s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0437s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0424s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.311042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.311216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002554s ]
+
+[ 2016-08-10T11:41:06+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0424s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0425s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0545s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.321449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.321578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2016-08-10T14:12:25+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003560s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0491s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0489s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0484s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.335479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.335713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2016-08-10T14:13:22+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002496s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001783s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0463s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0413s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0515s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.326604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.326684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2016-08-10T14:14:48+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003714s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0409s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0403s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0424s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.296791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.296988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002830s ]
+
+[ 2016-08-10T14:15:50+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0430s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0403s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0439s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.298976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.299115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2016-08-10T14:16:48+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002416s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0428s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0401s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0416s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.308033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.308114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-08-10T14:20:27+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003437s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0566s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0603s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0740s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0548s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.395805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.395944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2016-08-10T14:21:47+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0419s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0414s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0437s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.305913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.306022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2016-08-10T14:21:53+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0441s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0411s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0421s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.309378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.309527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001853s ]
+
+[ 2016-08-10T14:22:06+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001550s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0442s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0456s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0439s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.313355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.313463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2016-08-10T14:28:11+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001731s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0430s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0417s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0431s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.342298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.342405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-08-10T14:31:19+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001916s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0420s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0424s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.334357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.334471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2016-08-10T14:31:26+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001496s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0424s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0398s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0414s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.353396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.353499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2016-08-10T14:31:43+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002656s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0433s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0411s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0424s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.297028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.297167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-08-10T14:33:56+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002481s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0437s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0433s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0433s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.307997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.308075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-08-10T14:36:40+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002310s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0432s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0412s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0412s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.319027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.319280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003425s ]
+
+[ 2016-08-10T14:38:46+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003210s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0507s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0762s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0493s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.367226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.367338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001844s ]
+
+[ 2016-08-10T14:56:39+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003277s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0418s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0417s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0423s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.306818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.306914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-08-10T14:58:28+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002563s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0438s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0417s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0414s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.290243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.290340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2016-08-10T15:15:10+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004442s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0552s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0408s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0422s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.315373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.315497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-08-10T17:27:46+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003443s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0429s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0412s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0501s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.313818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.313930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2016-08-10T17:48:50+08:00 ] 127.0.0.1 /yangsheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0452s ]
+SQL: SELECT `type`,`name`,`value` FROM `ys_config` WHERE `status` = 1  [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `ys_document_article` [ RunTime:0.0450s ]
+SQL: SELECT `content` FROM `ys_document_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: title D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+NOTIC: [8] Undefined index: id D:\www\yangsheng\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.315620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.315706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
